@@ -1,0 +1,120 @@
+.test
+{
+    color: red;
+}
+
+
+.test1
+{
+color: rgba(76, 0, 255, 0.795);
+}
+
+
+.changeColor
+{
+    color: violet;
+}
+.increase
+{
+    font-size : 40px;
+}
+.decrease
+{
+    font-size : 20px;
+}
+
+
+.toolTip 
+{
+    display: none;
+    position: absolute;
+    background-color: tomato;
+    height: 30px;
+    width: 200px;
+}
+
+#toTopButton
+{
+    background-color: teal;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+}
+
+#toTopButton:hover 
+{
+    color:chartreuse;
+}
+
+#sampleImage
+{   height: 220px;
+    width: 200px;
+    position: absolute;
+}
+
+.sampleImage1
+{
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+
+.firstImage
+{
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    opacity: 1;
+    transition: 3s;
+}
+
+.thumbnail
+{
+    height: 100px;
+    width:100px;
+}
+
+.thumbnail:hover
+{
+    border-bottom: 2px solid red;
+    margin-bottom: -2px;
+}
+
+#mainImage
+{
+    height: 200px;
+    width: 400px;
+}
+
+.current
+{
+    border-bottom: 2px solid red;
+    margin-bottom: -2px;    
+}
+
+
+.thumbnailImageTip
+{
+    height: 100px;
+    width:100px;
+}
+
+#imageTipContainer
+{
+    border-bottom: 3px solid #eee;
+    background-color: #f7f5d0;
+    position : absolute;
+    left: 0;
+    top: 0;
+    font-size: 5px;
+    padding: 5px;
+    display: none;
+}
